@@ -10,7 +10,7 @@ This project demonstrates the setup of an enterprise-grade open-source SIEM/XDR 
 * **Attack Platform:** Kali Linux
 
 ## Lab Architecture
-graph TD
+'''graph TD
     A[Kali Linux <br><b>Attacker Node</b>] -- Simulated Attack <br> (Brute Force/Malware) --> B[Windows 10/11 VM <br><b>Victim Endpoint</b>]
     B -- Transmits Telemetry <br> (Sysmon & Event Logs) --> C[Wazuh Manager <br><b>SIEM/XDR Server</b>]
     C -- Generates Alerts --> D[Wazuh Dashboard <br><b>SOC Monitoring Web UI</b>]
@@ -19,7 +19,7 @@ graph TD
     style B fill:#1f77b4,stroke:#333,stroke-width:2px,color:#fff
     style C fill:#2ca02c,stroke:#333,stroke-width:2px,color:#fff
     style D fill:#7f7f7f,stroke:#333,stroke-width:2px,color:#fff
-
+'''
 ## Step-by-Step Implementation
 1. Installed Wazuh Manager on a Linux environment.
 2. Configured Wazuh Agents on Windows and Linux endpoints.
