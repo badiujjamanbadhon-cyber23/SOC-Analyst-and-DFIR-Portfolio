@@ -29,4 +29,4 @@ graph TD
 5. Analyzed alerts on the Wazuh Security Dashboard.
 
 ## Key Findings & Alert Analysis
-*(Add screenshots of your Wazuh dashboard showing active alerts during an attack)*
+<img width="1600" height="904" alt="85a034aa-cba9-43ed-9b7f-6b9dbb593d08" src="https://github.com/user-attachments/assets/ffa14490-42b8-4fdb-bc8b-5364bb0b8996" />
